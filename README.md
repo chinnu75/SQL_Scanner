@@ -1,78 +1,70 @@
-# Advanced SQL Injection Scanner
+# Advanced SQL Injection Scanner (Command-Line Tool)
 
-A Python-based SQL Injection scanner to identify potential vulnerabilities in web applications.  
-Tested on platforms like **DVWA** and custom login forms, this tool helps detect weak query handling practices.
-
----
-
-## 🔍 Features
-
-- 🧠 Scans web pages for SQL Injection vulnerabilities
-- 📥 Injects over **100+ advanced SQLi payloads**
-- 🎯 Supports both GET and POST requests
-- 🧪 Tamper with query logic to reveal flaws
-- 🔐 Designed for ethical testing and learning
+A Python-based command-line SQL Injection scanner built to detect vulnerabilities in web applications like DVWA and custom login forms.
 
 ---
 
-## 🛠 Technologies Used
+## 🚀 Features
 
-- Python 3
-- `requests` for HTTP communication
-- `re` for response pattern matching
-- `tkinter` (if GUI is added)
-- Custom payload list
+- Supports **100+ advanced SQLi payloads**
+- Designed for **GET and POST** request testing
+- Detects classic SQL injection flaws via **payload injection and response analysis**
+- Simple and fast command-line interface
+- Customizable and extensible payload list
 
 ---
 
-## 🚀 How to Use
+## 🔧 Requirements
 
-1. Clone the repository:
+- Python 3.x
+- Internet connection (for scanning live URLs)
+
+---
+
+## 💻 Usage
+
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/chinnu75/SQL_Scanner.git
    cd SQL_Scanner
    ```
 
-2. Install dependencies (if any):
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the scanner:
+2. **Run the Scanner**
    ```bash
    python SQL_Scanner.py
    ```
 
-4. Enter a vulnerable URL (e.g., from DVWA) and follow the prompts.
+3. **Follow Prompts**
+   - Enter the target URL
+   - Choose method (GET/POST)
+   - Wait for vulnerability scan results
 
 ---
 
-## 📁 File Structure
+## 📁 Files
 
 ```
 SQL_Scanner/
-├── SQL_Scanner.py       # Main Python scanner script
-├── payloads.txt         # (Optional) SQLi payload list
-├── README.md            # Project documentation
-└── LICENSE              # MIT License
+├── SQL_Scanner.py    # Main CLI tool for SQL Injection scanning
+└── README.md         # Project documentation
 ```
 
 ---
 
 ## ⚠️ Disclaimer
 
-> This tool is intended for **educational and authorized testing** only.  
-> Do **not** use it on websites you don’t own or have permission to test.
+This tool is intended for **educational purposes** and **authorized security testing only**.  
+**Do not** use it on websites you do not own or have permission to test.
 
 ---
 
-## 👨‍💻 Author
+## 👤 Author
 
 **Kasturi Bharadwaj**  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/bharadwaj-kasturi-451a031a9)
+[LinkedIn](https://www.linkedin.com/in/bharadwaj-kasturi-451a031a9)
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**.
